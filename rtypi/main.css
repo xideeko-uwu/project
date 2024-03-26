@@ -1,0 +1,335 @@
+@font-face {
+    font-family: 'RF Rufo1';
+    src: local('RF Rufo Bold'), local('RF-Rufo-Bold'),
+        url('RFRufo-Bold.woff2') format('woff2'),
+        url('RFRufo-Bold.woff') format('woff'),
+        url('RFRufo-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'RF Rufo';
+    src: local('RF Rufo Regular'), local('RF-Rufo-Regular'),
+        url('RFRufo-Regular.woff2') format('woff2'),
+        url('RFRufo-Regular.woff') format('woff'),
+        url('RFRufo-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RF RufoT';
+    src: local('RF Rufo Thin'), local('RF-Rufo-Thin'),
+        url('RFRufo-Thin.woff2') format('woff2'),
+        url('RFRufo-Thin.woff') format('woff'),
+        url('RFRufo-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+
+
+*{
+    font-family: 'RF Rufo';
+    background-color: #181818;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.floor1{
+    position: absolute;
+    width: 1516px;
+    height: 826px;
+    top: 1237px;
+    left: 304px;
+    background: none;
+    display: flex;
+    margin: none;
+    flex-direction: column;
+}
+
+
+p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+
+.line{
+    position: absolute;
+    top: 1130px;
+    left: 297px;
+}
+
+
+.dron1 {
+    position: absolute;
+    top: 1308px;
+    left: 1413px;
+}
+
+
+.back{
+    font-family: 'RF Rufo1';
+    color:  #FFFFFF33;
+    font-size: 120px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: left;    
+    background: none;
+}
+
+
+.front{
+    position: absolute;
+    background: none;
+    top: 60px;
+    left: 1vh;
+    color: #02E502;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0.8px;
+    text-align: left;
+}
+
+
+.per {
+    font-family: 'RF Rufo1';
+    position: absolute;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 1px;
+    text-align: left;
+    width: 523px;
+    height: 103px;
+    top: 1710px;
+    left: -20px;
+    transform: rotate(-90deg);
+    color:  #242424b5;
+    text-shadow: -4px 0px 4px rgba(0,0,0,0.6);
+    background: none;
+}
+
+
+.top{
+    margin-left: 100px;
+    display: flex;
+    width: 1229px;
+    height: 800px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background: none;
+}
+
+
+.div1{
+    display: flex;
+    width: 534px;
+    height: 269px;
+    background-color: #1E1D1D;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.imgs {
+    padding-top: 44px;
+    background: none;
+    padding-left: 80px;
+}
+
+
+.divp{
+    padding-top: 70px;
+    padding-left: 22px;
+    padding-right: 90px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    background: none;
+}
+
+
+.divp1{
+    padding-top: 66px;
+    padding-left: 22px;
+    padding-right: 90px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    background: none;
+}
+
+
+.divp2{
+    font-family: 'RF RufoT';
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: none;
+    color: #FFFFFF;
+    padding-bottom: 45px;
+    padding-left: 80px;
+    padding-right: 90px;
+}
+
+
+.divp22{
+    font-family: 'RF RufoT';
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: none;
+    color: #FFFFFF;
+    padding-bottom: 45px;
+    padding-left: 80px;
+    padding-right: 40px;
+}
+
+
+.floor2{
+    position: absolute;
+    width: 1585px;
+    height: 668px;
+    top: 2162px;
+    left: 304px;
+}
+
+
+.little{
+    padding-top: 35px;
+    padding-left: 7px;
+    font-family: "RF RufoT";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    width: 752px;
+    height: 60px;
+    top: 2339px;
+    left: 309px;
+}
+
+
+.tablet{
+    background: none;
+    padding-top: 100px;
+}
+
+
+.fildsworks {
+    position: absolute;
+    background: none;
+    width: 388px;
+    height: 289px;
+    top: 485px;
+    left: 738px;
+    color: #FFFFFF;
+}
+
+
+.fields{
+    font-family: "RF Rufo";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: inline;
+    background: none;
+    width: 124px;
+    height: 24px;
+}
+
+
+.fields2{
+    padding-left: 40px;
+    font-family: "RF Rufo";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: inline;
+    background: none;
+    width: 124px;
+    height: 24px;
+}
+
+
+.cons{
+    margin-left: 26px;
+    padding-top: 35px;
+    font-family: 'RF RufoT';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    list-style-image: url('check.svg');
+
+}
+
+
+.consultation {
+    width: 287px;
+    height: 68px;
+    border: 1px;
+    color: #02E502;
+    border-color: #02E502;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
